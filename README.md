@@ -120,20 +120,3 @@ export default api;
 * **Backend:** Can be deployed on platforms like Heroku, Render, or AWS EC2.
 * **Frontend:** Can be hosted on Netlify, Vercel, or GitHub Pages.
 * **Database:** Use MySQL in production (locally or via cloud like PlanetScale or AWS RDS).
-
----
-
-## ✍️ Author
-
-**Sai Ganesh Dhara**
-📧 [ganesh.12222126@lpu.in](mailto:ganesh.12222126@lpu.in)
-🔗 [GitHub](https://github.com/saiganesh5)
-
----
-
-## 📜 License
-
-This project is licensed under the [MIT License](LICENSE).
-
-```
-```
