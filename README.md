@@ -1,5 +1,5 @@
 ```markdown
-# 🔗 URL Shortener
+#  URL Shortener
 
 A full-stack **URL Shortener application** built with **Spring Boot (Java)** for the backend and **React.js** for the frontend.
 
@@ -7,7 +7,7 @@ It allows users to shorten long URLs, track the number of clicks, and view basic
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 
@@ -21,7 +21,7 @@ UrlShortener/
 
 ---
 
-## ⚙️ Backend (Spring Boot)
+## Backend (Spring Boot)
 
 ### 📌 Tech Stack
 - Java 17
@@ -31,12 +31,12 @@ UrlShortener/
 - Geo IP Resolution
 - Maven
 
-### 🚀 Features
+### Features
 - Generate a short code for any valid long URL.
 - Redirect from short URL to the original one.
 - Logs browser, IP, and location info on each click.
 
-### 📂 Backend Directory Structure
+### Backend Directory Structure
 ```
 
 src/main/java/org/ganesh/urlshortener/
@@ -49,7 +49,7 @@ src/main/java/org/ganesh/urlshortener/
 
 ````
 
-### 🔧 How to Run
+### How to Run
 1. Configure your database in `application.properties`
 2. Build & run:
 ```bash
@@ -60,22 +60,22 @@ mvn spring-boot:run
 
 ---
 
-## 🌐 Frontend (React)
+## Frontend (React)
 
-### 📌 Tech Stack
+### Tech Stack
 
 * React.js (Vite or CRA)
 * Axios for API calls
 * Bootstrap / Tailwind (Optional for styling)
 
-### 🎯 Features
+###  Features
 
 * Input long URL and receive short version.
 * Display shortened URL and copy to clipboard.
 * View analytics (click count, device, location).
 * Separate pages for URL shortening and stats.
 
-### 📂 Frontend Directory Structure
+### Frontend Directory Structure
 
 ```
 frontend/
@@ -86,7 +86,7 @@ frontend/
 │   └── App.js
 ```
 
-### 🔧 How to Run
+### How to Run
 
 ```bash
 cd frontend
@@ -98,7 +98,7 @@ Then open `http://localhost:3000` in your browser.
 
 ---
 
-## 🔄 Backend ↔ Frontend Integration
+## Backend ↔ Frontend Integration
 
 Ensure that the React frontend sends requests to the backend. You can do this by updating the `baseURL` in `src/api.js`:
 
@@ -114,9 +114,3 @@ export default api;
 ```
 
 ---
-
-## 📦 Deployment
-
-* **Backend:** Can be deployed on platforms like Heroku, Render, or AWS EC2.
-* **Frontend:** Can be hosted on Netlify, Vercel, or GitHub Pages.
-* **Database:** Use MySQL in production (locally or via cloud like PlanetScale or AWS RDS).
