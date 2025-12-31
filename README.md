@@ -23,7 +23,7 @@ UrlShortener/
 
 ## Backend (Spring Boot)
 
-### 📌 Tech Stack
+### Tech Stack
 - Java 17
 - Spring Boot
 - Spring Data JPA (Hibernate)
