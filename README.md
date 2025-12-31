@@ -2,7 +2,6 @@
 
 A simple, production‑ready URL shortening service built with Spring Boot, JPA/Hibernate, and MySQL. It lets you generate short links, redirect users to the original URLs, and collect basic click analytics (timestamp, referrer, rough location).
 
-> Current local datetime: 2025‑12‑31 18:51
 
 ---
 
